@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="https://paymyserver.github.io/balcheck/tu.png">
+<title>INDEX</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<head>
+<script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+return false;
+}
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
+</head>
+<body>
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+  <h1 class="w3-xxxlarge w3-text-theme"><font color="Red"><b>MENU</b></font></h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+  <a href="#" class="w3-bar-item w3-button">REGISTER</a>
+  <a href="#" class="w3-bar-item w3-button">TOP UP</a>
+  <a href="#" class="w3-bar-item w3-button">MORE ABOUT EWALLET</a>
+  <a href="#" class="w3-bar-item w3-button">ABOUT US</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4>MAKSIS</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom"><img src="https://paymyserver.github.io/balcheck/tu.png" alt="imglogo" style="width:200px;height:150px;"></h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">TOP UP</button>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>ABOUT US
+        <h5><i class="https://raw.githubusercontent.com/paymyserver/balcheck/main/tu.ico"></i></h5>
+      </header>
+      <style>
+      .tulis p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+</style>
+      <div class="w3-padding">
+<div class="tulis">
+  <p>We are top agent for ewallets.  Location: Dbazzar@OneTJ, Kuching, Sarawak, Malaysia.</p>
+</div>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Relocate:<a class="w3-btn" href="https://dbazzar.com/">Click Here</a></p>
+      </footer>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>TOP UP</h3><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZ8P0GVuq__GwykFrH_LjLFrArK1VBXiLALwZYXshusMpPfo&s" style="font-size:120px"></i>
+  <p>Anywhere and Anytime</p>
+  <p>Bonus point</p>
+  <p>Enjoy more benefits</p>
+  <p>Many More</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Merchant</h3><br>
+  <img src="https://4.bp.blogspot.com/-tarLFyQeCGQ/W_F3qg0KuOI/AAAAAAAAHo0/ije3u1AwcPcmxSBP_LzLKmdGp1x8ynKMwCLcBGAs/s1600/sarawakpay-ewallet-logo.png" style="font-size:120px"></i>
+  <p>Collaboration with Sarawak Pay</p>
+  <p>Merchant Registeration</p>
+  <p>Advertisement discount</p>
+  <p>More</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Community</h3><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAdrIT63bme4OXM2DdY0o6rzkSPBbpvZCZ_B2JdLbHrDxU81LG&s" style="font-size:120px"></i>
+  <p>Bigger Chance for expand business</p>
+  <p>Bigger Reward</p>
+  <p>Minimize modal equity for franchise</p>
+  <p>Mobilize your product</p>
+  </div>
+</div>
+</div>
+<p></p>
+</body>
+<style>
+footer {font-family: Arial, Helvetica, sans-serif;}
+
+.image-container {
+  background-image: url("https://i.pinimg.com/originals/84/27/67/84276703d3263ceab02d83ee2e32bda0.jpg");
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: auto
+  font-weight: bold;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: multiply;
+}
+</style>
+<footer>
+<div class="image-container">
+  <div class="text">
+  <h1>TOP UP</h1>
+  <p>Copyright 2020, MAKSIS</p>
+</div>
+</footer>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Slideshows
+var slideIndex = 1;
+
+function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+
+// Progress Bars
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 5;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+</html>
