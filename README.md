@@ -1,0 +1,2 @@
+# topup
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ee499e0392da43a9b1613fe424ed1c02)](https://app.codacy.com/gh/alexandereric995/topup?utm_source=github.com&utm_medium=referral&utm_content=alexandereric995/topup&utm_campaign=Badge_Grade_Settings)
